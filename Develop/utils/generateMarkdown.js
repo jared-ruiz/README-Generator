@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
     return '';
   }
   else {
-    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)](https://opensource.org/licenses/${license})`
+    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-blue.svg)](https://opensource.org/licenses/${license})`
   }
 }
 
@@ -26,21 +26,48 @@ function renderLicenseSection(license) {
   if (license === `None`) {
     return '';
   }
-  else {
-    return `
-    ## License Information
-    ${renderLicenseBadge(data.license)}
-    ${renderLicenseLink(data.license)}
-
-  `
-  }
+  
+  return `
+## License Information
+${renderLicenseBadge(license)}
+<br/>
+${renderLicenseLink(license)}
+`
+  
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+
   return `# ${data.title}
-    ## ${data.description}
-    ${renderLicenseSection}
+## Description
+${data.description}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License Information](#license)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+${data.install}
+
+## Usage
+${data.usage}
+
+${renderLicenseSection(data.license)}
+
+## Contribution
+${data.contributions}
+
+## Tests
+${data.testing}
+
+## Questions
+For further questions, please contact me at: [GitHub]('https://github.com/'${data.username}) or ${data.email}
+
 `;
 }
 
