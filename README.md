@@ -57,8 +57,6 @@ If you have any further questions, contact me here: [GitHub](https://github.com/
 
 ![Gif](./assets/README%20generator.gif)
 
-## Professional README Generator Starter Code
----
 ### Link used for help and examples:
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
