@@ -1,6 +1,6 @@
-# README Generator
+# Test
 ## Description
-Creates a README file based on the input from the terminal using node.js
+Test
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,10 +11,10 @@ Creates a README file based on the input from the terminal using node.js
 - [Questions](#questions)
 
 ## Installation
-Download repo and make sure to do the standard npm initialize procedure before beginning to use this program. Make sure you have inquirer installed as well.
+Test
 
 ## Usage
-Once you are done installing, cd into the Develop folder and type "node index" into the terminal. You will be asked a few questions that will then be used to populate your README.
+Test
 
 
 ## License Information
@@ -24,11 +24,11 @@ Once you are done installing, cd into the Develop folder and type "node index" i
 
 
 ## Contribution
-If you would like to contribute to this program, feel free to! Also check the Questions section of this REAME to contact me if you need any further information.
+Test
 
 ## Tests
-N/a
+Test
 
 ## Questions
-For further questions, please contact me at: [GitHub]('https://github.com/'jared-ruiz) or test@gmail.com
+For further questions, please contact me at: [GitHub]('https://github.com/'Test) or Test@test.com
 
